@@ -1,0 +1,549 @@
+@charset "utf-8";
+@media screen and (min-width:130px) and (max-width:468px){
+
+    main{background-color:var(--color-one);
+        width:100%;
+        height: auto;
+        display: grid;
+        grid-column: auto;
+       margin-bottom:10px;
+       overflow-x: hidden;}
+    
+       
+
+
+  /*--------Aquo estilizacao do cabecalho e sues componentes----*/
+
+ header{background-color:var(--color-twenty);
+        width:90%;
+        height:40vh;
+        display: grid;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-bottom:10px;}
+
+    /***----------------- titulo principal do site--------*/
+    
+    .title-site{font-size:40px;
+                    font-variant: small-caps;
+                    color: aliceblue;
+                    position: absolute;
+                    margin-left: 10%;
+                    margin-top: 20%;
+                    
+                }
+                   
+
+
+
+ /*------menu offcanvas e seus componetes--------------*/
+
+
+        #nossas_sessoes{width: 90%;
+            display: grid;
+            align-items: center;
+            margin: auto;
+            margin-top: -1.0px;}
+
+        .material-symbols-outlined{font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        '        opsz' 48;  }
+
+        #abaMenu{background-color: var(--color-twenty)/*estilizaça a parte do titulo da aba*/}
+
+
+       .offcanvas-body{background-color: var(--color-five);}
+
+        .offcanvas-title{color:#FFF;}
+
+
+        .btn-primary-I{background-color:var(--color-twenty-three); /*botao do menu saiba saiba mais do header*/
+            width: 90%;
+            margin-left: 5%;
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 15px;
+            }
+
+         .btn-primary-I:hover{background-color:var(--color-six);
+                             border:solid 3px var(--color-four);}
+                             
+
+         
+
+        #itemenu  ol li {text-decoration: none;
+            border:solid 3px black;
+            background-color: var(--color-six);
+            border-radius: 15px;
+             text-align: center;
+             max-width: 800px;
+              list-style: none;
+              padding: 0;
+              margin-bottom: 15px;
+           
+              }
+           
+
+        #itemenu  ol li  a{text-decoration: none;} 
+
+
+
+
+        #itemenu ol li{display: block;}
+
+
+        #itemenu ol li a{color: #FFF;
+                    padding: 20px;
+                    display: inline-block;
+                    text-decoration: none;
+                    transition: background .4s;}  
+
+        #itemenu ol li a:hover{background-color:var(--color-four);
+                            width: 100%;
+                            border-radius: 15px;
+                            border: solid 3px #FFF;
+                            color: #FFF}    
+
+        #fechar{background-color: #FFF;}
+
+
+ /*------------------aqui sessao noticias de tec----------*/       
+
+            .tec ,footer{width:90%;
+                height:auto;
+                background-color:var(--color-four);/*essa cor fica abaixo da imagem e do texto*/
+                margin: auto;
+                margin-bottom:10px;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                
+            
+            }
+
+
+            .card-img-top{border-bottom-left-radius: 15px;
+                          border-bottom-right-radius: 15px;
+                         }
+
+            .card-body{background-color: #f6f6f6dc;
+                        margin-top: 5px;
+                        padding-bottom: 50px;
+                        border-bottom-left-radius: 15px;
+                        border-bottom-right-radius: 15px;}
+
+            .card-title{text-align: center;
+                        padding-top: 20px;
+                        padding-bottom: 20px;}   
+                        
+            .card-text{line-height: 25px;
+                        padding-left: 15px;
+                        padding-bottom: 20px;
+                        padding-right: 10px;
+                    
+                        
+                        
+                        }  
+
+
+        .btn-noticias-teimoso{background-color:var(--color-six);
+                            width:80%;
+                             padding:15px;
+                            margin-left:15%;
+                            text-align:center;
+                            padding-left:22%;
+                            padding-right:22%;
+                            color: #FFF;
+                            text-decoration:none; 
+                            border-bottom-left-radius: 15px;
+                            border-bottom-right-radius: 15px;  }                
+
+
+     .btn-noticias-teimoso:hover{background-color: var(--color-twenty);
+                                  color:#000;}
+        
+
+     /*-----------sessao planos-------------------*/
+
+     .tec-planos{background-color: var(--color-one);
+                    max-width: 90%;
+                    margin: auto;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    padding-bottom: 50px;
+                    border-bottom-left-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                    color: #FFF;
+                    }
+
+     .h2-tec-planos{text-align: center;
+                     padding-top: 20px;
+                     font-size: 28px;
+                     font-weight: bolder;
+                     font-variant: small-caps;}  
+                     
+                    
+     
+     .btn-noticias{background-color: var(--color-six);
+                        width:80%;
+                        height: 50px;
+                        margin-bottom: 15px;
+                        border-bottom-left-radius: 15px;
+                        border-bottom-right-radius: 15px;
+                        color: #FFF;
+                       
+                    }
+
+    .btn-noticias:hover{background-color: var(--color-four);
+                         color:#FFF;}                
+
+
+                         
+
+
+    .card-header{background-color: var(--color-six);
+                 height:60px;
+                 border-bottom-left-radius: 15px;
+                 border-bottom-right-radius: 15px;
+                 color: #FFF;
+                 
+                }                
+
+    .card-body{background-color:  #f6f6f6dc;
+        
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;}
+
+    
+
+  /*------------sesao preços------------------------*/
+
+
+
+
+
+
+   
+                        .row{width: 96%;
+                          
+                           margin: auto;
+                              }               
+                                            
+                         
+                      .table-responsive{max-width: 92%;
+                                 height: auto;
+                                 padding-bottom: 15px;
+                                overflow-x: hidden;
+                                background-color: var(--color-five);
+                                border-bottom-left-radius: 15px;
+                                border-bottom-right-radius: 15px;
+                                max-width: 80%;
+                                min-width: 20%;
+                                 margin: auto;
+                                margin-bottom: 20px;
+                                font-size: 12px;
+                                }  
+                                
+                               
+                  #h2-compare-planos{font-weight: bolder;
+                                     color: #FFF;
+                                    padding-bottom: 20px;}               
+                                
+                  
+                            
+                   
+                                    
+                   
+
+                 
+ /*------------------------------------------------footer e seus componentes-------*/
+
+                    footer{width: 90%;
+                        background-color:var(--color-twenty);
+                        margin-bottom: 10px;
+                        color:aliceblue;
+                        border-bottom-left-radius: 15px;
+                        border-bottom-right-radius: 15px;
+                        border-top: solid 3px #FFF;}
+
+
+
+                 .btn-footer{background-color: var(--color-six);
+                            width:80%;
+                            margin: auto;
+                            height: 50px;
+                            margin-bottom: 15px;
+                            border-bottom-left-radius: 15px;
+                            border-bottom-right-radius: 15px;}
+
+                   .btn-footer:hover{background-color: var(--color-six);
+                                    color:#FFF;}
+
+
+                    #formulario{max-width: 80%;
+                                margin: auto;
+                                
+                                } 
+                   #footer-redes{background-color:#000;}     
+
+  
+  
+
+
+                    .h5-footer{ font-size: 16px;
+                                padding-top: 30px;
+                                padding-left:10px;
+                                padding-right: 5%;}
+                              
+                    .p-footer{ font-size: 14px;
+                                margin-left: 40px;
+                               
+                                text-align: center;}
+
+
+
+
+                  
+
+
+
+         .redes{display: inline-block;
+                margin: auto;
+                
+                }
+                
+
+        #redes-I {margin-left: 50px;}          
+
+/*--------------------------classes pc-------*/
+             
+        .menu-computer{display:none;}
+
+        .pc-noticias{display: none;}
+
+
+
+
+
+            }
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+
+            
